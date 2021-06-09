@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <TextField fx:id="RegisterEmail" layoutX="188.0" layoutY="83.0" promptText="Email">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="RegisterFirst" layoutX="188.0" layoutY="171.0" promptText="First Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="RegisterLast" layoutX="188.0" layoutY="215.0" promptText="Last Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="RegisterSSN" layoutX="188.0" layoutY="259.0" promptText="Social Security Number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="RegisterAddress" layoutX="188.0" layoutY="303.0" promptText="Street Address">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="RegisterCity" layoutX="188.0" layoutY="347.0" promptText="City">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="RegisterState" layoutX="188.0" layoutY="391.0" promptText="State">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="RegisterZip" layoutX="188.0" layoutY="435.0" promptText="Zip">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="RegisterPassword" layoutX="188.0" layoutY="127.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="CompleteRegister" layoutX="188.0" layoutY="507.0" mnemonicParsing="false" text="Register">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="RegisterReturn" layoutX="334.0" layoutY="507.0" mnemonicParsing="false" text="Return">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
